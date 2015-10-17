@@ -38,7 +38,6 @@
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.frame = CGRectMake(100, 100, 100, 100);
-    button.backgroundColor = [UIColor orangeColor];
     [button jxl_setDayMode:^(UIView *weakView) {
         weakView.backgroundColor = [UIColor greenColor];
     } nightMode:^(UIView *weakView) {
