@@ -29,14 +29,14 @@
         
         
         
-        [self jxl_setDayMode:^(UIView *weakView) {
-            JXLTableViewCell *cell = (JXLTableViewCell *)weakView;
+        [self jxl_setDayMode:^(UIView *view) {
+            JXLTableViewCell *cell = (JXLTableViewCell *)view;
             cell.backgroundColor = [UIColor whiteColor];
             cell.contentView.backgroundColor = [UIColor whiteColor];
             cell.textLabel.backgroundColor = [UIColor whiteColor];
             cell.textLabel.textColor = [UIColor blackColor];
-        } nightMode:^(UIView *weakView) {
-            JXLTableViewCell *cell = (JXLTableViewCell *)weakView;
+        } nightMode:^(UIView *view) {
+            JXLTableViewCell *cell = (JXLTableViewCell *)view;
             cell.backgroundColor = [UIColor blackColor];
              cell.contentView.backgroundColor = [UIColor blackColor];
             cell.textLabel.backgroundColor = [UIColor blackColor];

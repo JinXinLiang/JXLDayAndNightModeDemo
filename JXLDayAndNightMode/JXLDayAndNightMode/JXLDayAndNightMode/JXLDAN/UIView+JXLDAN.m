@@ -36,14 +36,13 @@ static void *JXLViewNightKey = "JXLViewNightKey";
 }
 
 - (void)p_changeMode {
-    __weak UIView *view = self;
     DAY_AND_NIGHT_MODE_BLOCK dayModeBlock = objc_getAssociatedObject(self, JXLViewDayKey);
     DAY_AND_NIGHT_MODE_BLOCK nightModeBlock = objc_getAssociatedObject(self, JXLViewNightKey);
     
     if (JXLDayAndNightModeDay == [[JXLDayAndNightManager shareManager] contentMode]) {
-        dayModeBlock(view);
+        dayModeBlock(self);
     } else {
-        nightModeBlock(view);
+        nightModeBlock(self);
     }
     
 }

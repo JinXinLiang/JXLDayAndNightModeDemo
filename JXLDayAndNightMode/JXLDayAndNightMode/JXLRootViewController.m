@@ -20,17 +20,17 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 
-    [self.view jxl_setDayMode:^(UIView *weakView) {
-        weakView.backgroundColor = [UIColor whiteColor];
-    } nightMode:^(UIView *weakView) {
-        weakView.backgroundColor = [UIColor blackColor];
+    [self.view jxl_setDayMode:^(UIView *view) {
+        view.backgroundColor = [UIColor whiteColor];
+    } nightMode:^(UIView *view) {
+        view.backgroundColor = [UIColor blackColor];
     }];
     
-    [self.navigationController.navigationBar jxl_setDayMode:^(UIView *weakView) {
-        UINavigationBar *bar = (UINavigationBar *)weakView;
+    [self.navigationController.navigationBar jxl_setDayMode:^(UIView *view) {
+        UINavigationBar *bar = (UINavigationBar *)view;
         bar.barTintColor = [UIColor whiteColor];
-    } nightMode:^(UIView *weakView) {
-        UINavigationBar *bar = (UINavigationBar *)weakView;
+    } nightMode:^(UIView *view) {
+        UINavigationBar *bar = (UINavigationBar *)view;
         bar.barTintColor = [UIColor blackColor];
     }];
     
@@ -38,10 +38,10 @@
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.frame = CGRectMake(100, 100, 100, 100);
-    [button jxl_setDayMode:^(UIView *weakView) {
-        weakView.backgroundColor = [UIColor greenColor];
-    } nightMode:^(UIView *weakView) {
-        weakView.backgroundColor = [UIColor redColor];
+    [button jxl_setDayMode:^(UIView *view) {
+        view.backgroundColor = [UIColor greenColor];
+    } nightMode:^(UIView *view) {
+        view.backgroundColor = [UIColor redColor];
     }];
     [button setTitle:@"touch" forState:UIControlStateNormal];
     [button addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];

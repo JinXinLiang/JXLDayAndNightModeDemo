@@ -11,10 +11,10 @@
 /**
  *  日间模式和夜间模式的闭包函数类型
  *
- *  @param weakView 当前的控件
+ *  @param view 当前的控件
  */
 
-typedef void(^DAY_AND_NIGHT_MODE_BLOCK)(UIView *weakView);
+typedef void(^DAY_AND_NIGHT_MODE_BLOCK)(UIView *view);
 
 
 extern NSString *const JXLChangeModeNotification;

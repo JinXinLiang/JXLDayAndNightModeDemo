@@ -25,12 +25,12 @@
     tableView.delegate = self;
     tableView.dataSource = self;
     
-    [tableView jxl_setDayMode:^(UIView *weakView) {
+    [tableView jxl_setDayMode:^(UIView *view) {
         
-        weakView.backgroundColor = [UIColor whiteColor];
-    } nightMode:^(UIView *weakView) {
+        view.backgroundColor = [UIColor whiteColor];
+    } nightMode:^(UIView *view) {
         
-        weakView.backgroundColor = [UIColor blackColor];
+        view.backgroundColor = [UIColor blackColor];
         
     }];
     [self.view addSubview:tableView];
