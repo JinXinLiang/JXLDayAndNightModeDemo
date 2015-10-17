@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		731C1F651BD1F18400035EC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 731C1F641BD1F18400035EC3 /* main.m */; };
+		731C1F681BD1F18400035EC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 731C1F671BD1F18400035EC3 /* AppDelegate.m */; };
+		731C1F701BD1F18400035EC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 731C1F6F1BD1F18400035EC3 /* Assets.xcassets */; };
+		731C1F731BD1F18400035EC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 731C1F711BD1F18400035EC3 /* LaunchScreen.storyboard */; };
+		731C1F7E1BD1F18400035EC3 /* JXLDayAndNightModeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 731C1F7D1BD1F18400035EC3 /* JXLDayAndNightModeTests.m */; };
+		731C1F891BD1F18400035EC3 /* JXLDayAndNightModeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 731C1F881BD1F18400035EC3 /* JXLDayAndNightModeUITests.m */; };
+		731C1FE41BD22F1700035EC3 /* JXLSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 731C1FE31BD22F1700035EC3 /* JXLSecondViewController.m */; settings = {ASSET_TAGS = (); }; };
+		731C202E1BD271E600035EC3 /* JXLDayAndNightManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 731C202A1BD271E600035EC3 /* JXLDayAndNightManager.m */; settings = {ASSET_TAGS = (); }; };
+		731C202F1BD271E600035EC3 /* UIView+JXLDAN.m in Sources */ = {isa = PBXBuildFile; fileRef = 731C202C1BD271E600035EC3 /* UIView+JXLDAN.m */; settings = {ASSET_TAGS = (); }; };
+		731C20321BD272FA00035EC3 /* JXLTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 731C20311BD272FA00035EC3 /* JXLTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		731C20351BD29EAB00035EC3 /* JXLRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 731C20341BD29EAB00035EC3 /* JXLRootViewController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		731C1F7A1BD1F18400035EC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 731C1F581BD1F18400035EC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 731C1F5F1BD1F18400035EC3;
+			remoteInfo = JXLDayAndNightMode;
+		};
+		731C1F851BD1F18400035EC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 731C1F581BD1F18400035EC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 731C1F5F1BD1F18400035EC3;
+			remoteInfo = JXLDayAndNightMode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		731C1F601BD1F18400035EC3 /* JXLDayAndNightMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXLDayAndNightMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		731C1F641BD1F18400035EC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		731C1F661BD1F18400035EC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		731C1F671BD1F18400035EC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		731C1F6F1BD1F18400035EC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		731C1F721BD1F18400035EC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		731C1F741BD1F18400035EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		731C1F791BD1F18400035EC3 /* JXLDayAndNightModeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXLDayAndNightModeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		731C1F7D1BD1F18400035EC3 /* JXLDayAndNightModeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXLDayAndNightModeTests.m; sourceTree = "<group>"; };
+		731C1F7F1BD1F18400035EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		731C1F841BD1F18400035EC3 /* JXLDayAndNightModeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXLDayAndNightModeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		731C1F881BD1F18400035EC3 /* JXLDayAndNightModeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXLDayAndNightModeUITests.m; sourceTree = "<group>"; };
+		731C1F8A1BD1F18400035EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		731C1FE21BD22F1700035EC3 /* JXLSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXLSecondViewController.h; sourceTree = "<group>"; };
+		731C1FE31BD22F1700035EC3 /* JXLSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXLSecondViewController.m; sourceTree = "<group>"; };
+		731C20291BD271E600035EC3 /* JXLDayAndNightManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXLDayAndNightManager.h; sourceTree = "<group>"; };
+		731C202A1BD271E600035EC3 /* JXLDayAndNightManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXLDayAndNightManager.m; sourceTree = "<group>"; };
+		731C202B1BD271E600035EC3 /* UIView+JXLDAN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JXLDAN.h"; sourceTree = "<group>"; };
+		731C202C1BD271E600035EC3 /* UIView+JXLDAN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JXLDAN.m"; sourceTree = "<group>"; };
+		731C202D1BD271E600035EC3 /* JXLDayAndNightMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXLDayAndNightMode.h; sourceTree = "<group>"; };
+		731C20301BD272FA00035EC3 /* JXLTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXLTableViewCell.h; sourceTree = "<group>"; };
+		731C20311BD272FA00035EC3 /* JXLTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXLTableViewCell.m; sourceTree = "<group>"; };
+		731C20331BD29EAB00035EC3 /* JXLRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXLRootViewController.h; sourceTree = "<group>"; };
+		731C20341BD29EAB00035EC3 /* JXLRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXLRootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		731C1F5D1BD1F18400035EC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731C1F761BD1F18400035EC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731C1F811BD1F18400035EC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		731C1F571BD1F18400035EC3 = {
+			isa = PBXGroup;
+			children = (
+				731C1F621BD1F18400035EC3 /* JXLDayAndNightMode */,
+				731C1F7C1BD1F18400035EC3 /* JXLDayAndNightModeTests */,
+				731C1F871BD1F18400035EC3 /* JXLDayAndNightModeUITests */,
+				731C1F611BD1F18400035EC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		731C1F611BD1F18400035EC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				731C1F601BD1F18400035EC3 /* JXLDayAndNightMode.app */,
+				731C1F791BD1F18400035EC3 /* JXLDayAndNightModeTests.xctest */,
+				731C1F841BD1F18400035EC3 /* JXLDayAndNightModeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		731C1F621BD1F18400035EC3 /* JXLDayAndNightMode */ = {
+			isa = PBXGroup;
+			children = (
+				731C20271BD271E600035EC3 /* JXLDayAndNightMode */,
+				731C20331BD29EAB00035EC3 /* JXLRootViewController.h */,
+				731C20341BD29EAB00035EC3 /* JXLRootViewController.m */,
+				731C1FE21BD22F1700035EC3 /* JXLSecondViewController.h */,
+				731C1FE31BD22F1700035EC3 /* JXLSecondViewController.m */,
+				731C20301BD272FA00035EC3 /* JXLTableViewCell.h */,
+				731C20311BD272FA00035EC3 /* JXLTableViewCell.m */,
+				731C1F661BD1F18400035EC3 /* AppDelegate.h */,
+				731C1F671BD1F18400035EC3 /* AppDelegate.m */,
+				731C1F6F1BD1F18400035EC3 /* Assets.xcassets */,
+				731C1F711BD1F18400035EC3 /* LaunchScreen.storyboard */,
+				731C1F741BD1F18400035EC3 /* Info.plist */,
+				731C1F631BD1F18400035EC3 /* Supporting Files */,
+			);
+			path = JXLDayAndNightMode;
+			sourceTree = "<group>";
+		};
+		731C1F631BD1F18400035EC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				731C1F641BD1F18400035EC3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		731C1F7C1BD1F18400035EC3 /* JXLDayAndNightModeTests */ = {
+			isa = PBXGroup;
+			children = (
+				731C1F7D1BD1F18400035EC3 /* JXLDayAndNightModeTests.m */,
+				731C1F7F1BD1F18400035EC3 /* Info.plist */,
+			);
+			path = JXLDayAndNightModeTests;
+			sourceTree = "<group>";
+		};
+		731C1F871BD1F18400035EC3 /* JXLDayAndNightModeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				731C1F881BD1F18400035EC3 /* JXLDayAndNightModeUITests.m */,
+				731C1F8A1BD1F18400035EC3 /* Info.plist */,
+			);
+			path = JXLDayAndNightModeUITests;
+			sourceTree = "<group>";
+		};
+		731C20271BD271E600035EC3 /* JXLDayAndNightMode */ = {
+			isa = PBXGroup;
+			children = (
+				731C20281BD271E600035EC3 /* JXLDAN */,
+				731C202D1BD271E600035EC3 /* JXLDayAndNightMode.h */,
+			);
+			path = JXLDayAndNightMode;
+			sourceTree = "<group>";
+		};
+		731C20281BD271E600035EC3 /* JXLDAN */ = {
+			isa = PBXGroup;
+			children = (
+				731C20291BD271E600035EC3 /* JXLDayAndNightManager.h */,
+				731C202A1BD271E600035EC3 /* JXLDayAndNightManager.m */,
+				731C202B1BD271E600035EC3 /* UIView+JXLDAN.h */,
+				731C202C1BD271E600035EC3 /* UIView+JXLDAN.m */,
+			);
+			path = JXLDAN;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		731C1F5F1BD1F18400035EC3 /* JXLDayAndNightMode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 731C1F8D1BD1F18400035EC3 /* Build configuration list for PBXNativeTarget "JXLDayAndNightMode" */;
+			buildPhases = (
+				731C1F5C1BD1F18400035EC3 /* Sources */,
+				731C1F5D1BD1F18400035EC3 /* Frameworks */,
+				731C1F5E1BD1F18400035EC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JXLDayAndNightMode;
+			productName = JXLDayAndNightMode;
+			productReference = 731C1F601BD1F18400035EC3 /* JXLDayAndNightMode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		731C1F781BD1F18400035EC3 /* JXLDayAndNightModeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 731C1F901BD1F18400035EC3 /* Build configuration list for PBXNativeTarget "JXLDayAndNightModeTests" */;
+			buildPhases = (
+				731C1F751BD1F18400035EC3 /* Sources */,
+				731C1F761BD1F18400035EC3 /* Frameworks */,
+				731C1F771BD1F18400035EC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				731C1F7B1BD1F18400035EC3 /* PBXTargetDependency */,
+			);
+			name = JXLDayAndNightModeTests;
+			productName = JXLDayAndNightModeTests;
+			productReference = 731C1F791BD1F18400035EC3 /* JXLDayAndNightModeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		731C1F831BD1F18400035EC3 /* JXLDayAndNightModeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 731C1F931BD1F18400035EC3 /* Build configuration list for PBXNativeTarget "JXLDayAndNightModeUITests" */;
+			buildPhases = (
+				731C1F801BD1F18400035EC3 /* Sources */,
+				731C1F811BD1F18400035EC3 /* Frameworks */,
+				731C1F821BD1F18400035EC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				731C1F861BD1F18400035EC3 /* PBXTargetDependency */,
+			);
+			name = JXLDayAndNightModeUITests;
+			productName = JXLDayAndNightModeUITests;
+			productReference = 731C1F841BD1F18400035EC3 /* JXLDayAndNightModeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		731C1F581BD1F18400035EC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JXL;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = jinxinliang;
+				TargetAttributes = {
+					731C1F5F1BD1F18400035EC3 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					731C1F781BD1F18400035EC3 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 731C1F5F1BD1F18400035EC3;
+					};
+					731C1F831BD1F18400035EC3 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 731C1F5F1BD1F18400035EC3;
+					};
+				};
+			};
+			buildConfigurationList = 731C1F5B1BD1F18400035EC3 /* Build configuration list for PBXProject "JXLDayAndNightMode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 731C1F571BD1F18400035EC3;
+			productRefGroup = 731C1F611BD1F18400035EC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				731C1F5F1BD1F18400035EC3 /* JXLDayAndNightMode */,
+				731C1F781BD1F18400035EC3 /* JXLDayAndNightModeTests */,
+				731C1F831BD1F18400035EC3 /* JXLDayAndNightModeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		731C1F5E1BD1F18400035EC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731C1F731BD1F18400035EC3 /* LaunchScreen.storyboard in Resources */,
+				731C1F701BD1F18400035EC3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731C1F771BD1F18400035EC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731C1F821BD1F18400035EC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		731C1F5C1BD1F18400035EC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731C1F681BD1F18400035EC3 /* AppDelegate.m in Sources */,
+				731C20351BD29EAB00035EC3 /* JXLRootViewController.m in Sources */,
+				731C20321BD272FA00035EC3 /* JXLTableViewCell.m in Sources */,
+				731C1FE41BD22F1700035EC3 /* JXLSecondViewController.m in Sources */,
+				731C202E1BD271E600035EC3 /* JXLDayAndNightManager.m in Sources */,
+				731C1F651BD1F18400035EC3 /* main.m in Sources */,
+				731C202F1BD271E600035EC3 /* UIView+JXLDAN.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731C1F751BD1F18400035EC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731C1F7E1BD1F18400035EC3 /* JXLDayAndNightModeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731C1F801BD1F18400035EC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731C1F891BD1F18400035EC3 /* JXLDayAndNightModeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		731C1F7B1BD1F18400035EC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 731C1F5F1BD1F18400035EC3 /* JXLDayAndNightMode */;
+			targetProxy = 731C1F7A1BD1F18400035EC3 /* PBXContainerItemProxy */;
+		};
+		731C1F861BD1F18400035EC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 731C1F5F1BD1F18400035EC3 /* JXLDayAndNightMode */;
+			targetProxy = 731C1F851BD1F18400035EC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		731C1F711BD1F18400035EC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				731C1F721BD1F18400035EC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		731C1F8B1BD1F18400035EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		731C1F8C1BD1F18400035EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		731C1F8E1BD1F18400035EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				INFOPLIST_FILE = JXLDayAndNightMode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinxinliang.JXLDayAndNightMode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		731C1F8F1BD1F18400035EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				INFOPLIST_FILE = JXLDayAndNightMode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinxinliang.JXLDayAndNightMode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		731C1F911BD1F18400035EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JXLDayAndNightModeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinxinliang.JXLDayAndNightModeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JXLDayAndNightMode.app/JXLDayAndNightMode";
+			};
+			name = Debug;
+		};
+		731C1F921BD1F18400035EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JXLDayAndNightModeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinxinliang.JXLDayAndNightModeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JXLDayAndNightMode.app/JXLDayAndNightMode";
+			};
+			name = Release;
+		};
+		731C1F941BD1F18400035EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JXLDayAndNightModeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinxinliang.JXLDayAndNightModeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JXLDayAndNightMode;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		731C1F951BD1F18400035EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JXLDayAndNightModeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinxinliang.JXLDayAndNightModeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JXLDayAndNightMode;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		731C1F5B1BD1F18400035EC3 /* Build configuration list for PBXProject "JXLDayAndNightMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731C1F8B1BD1F18400035EC3 /* Debug */,
+				731C1F8C1BD1F18400035EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		731C1F8D1BD1F18400035EC3 /* Build configuration list for PBXNativeTarget "JXLDayAndNightMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731C1F8E1BD1F18400035EC3 /* Debug */,
+				731C1F8F1BD1F18400035EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		731C1F901BD1F18400035EC3 /* Build configuration list for PBXNativeTarget "JXLDayAndNightModeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731C1F911BD1F18400035EC3 /* Debug */,
+				731C1F921BD1F18400035EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		731C1F931BD1F18400035EC3 /* Build configuration list for PBXNativeTarget "JXLDayAndNightModeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731C1F941BD1F18400035EC3 /* Debug */,
+				731C1F951BD1F18400035EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 731C1F581BD1F18400035EC3 /* Project object */;
+}
