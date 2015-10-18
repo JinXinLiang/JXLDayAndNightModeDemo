@@ -1,18 +1,19 @@
 //
-//  JXLDayAndNightModeTests.m
-//  JXLDayAndNightModeTests
+//  JXLDayAndNightModeDemoTests.m
+//  JXLDayAndNightModeDemoTests
 //
-//  Created by Eiwodetianna on 10/17/15.
-//  Copyright © 2015 jinxinliang. All rights reserved.
+//  Created by Eiwodetianna on 10/19/15.
+//  Copyright (c) 2015 jinxinliang. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface JXLDayAndNightModeTests : XCTestCase
+@interface JXLDayAndNightModeDemoTests : XCTestCase
 
 @end
 
-@implementation JXLDayAndNightModeTests
+@implementation JXLDayAndNightModeDemoTests
 
 - (void)setUp {
     [super setUp];
@@ -26,7 +27,7 @@
 
 - (void)testExample {
     // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+    XCTAssert(YES, @"Pass");
 }
 
 - (void)testPerformanceExample {

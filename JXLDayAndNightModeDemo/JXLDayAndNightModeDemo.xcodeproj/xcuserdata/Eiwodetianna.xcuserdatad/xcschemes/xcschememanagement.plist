@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>JXLDayAndNightMode.xcscheme</key>
+		<key>JXLDayAndNightModeDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>731C1F5F1BD1F18400035EC3</key>
+		<key>737D9CD21BD407AA002BAEA0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>731C1F781BD1F18400035EC3</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>731C1F831BD1F18400035EC3</key>
+		<key>737D9CEB1BD407AA002BAEA0</key>
 		<dict>
 			<key>primary</key>
 			<true/>

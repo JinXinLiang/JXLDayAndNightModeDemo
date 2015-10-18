@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0640"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,90 +14,91 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "731C1F5F1BD1F18400035EC3"
-               BuildableName = "JXLDayAndNightMode.app"
-               BlueprintName = "JXLDayAndNightMode"
-               ReferencedContainer = "container:JXLDayAndNightMode.xcodeproj">
+               BlueprintIdentifier = "737D9CD21BD407AA002BAEA0"
+               BuildableName = "JXLDayAndNightModeDemo.app"
+               BlueprintName = "JXLDayAndNightModeDemo"
+               ReferencedContainer = "container:JXLDayAndNightModeDemo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "737D9CEB1BD407AA002BAEA0"
+               BuildableName = "JXLDayAndNightModeDemoTests.xctest"
+               BlueprintName = "JXLDayAndNightModeDemoTests"
+               ReferencedContainer = "container:JXLDayAndNightModeDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "731C1F781BD1F18400035EC3"
-               BuildableName = "JXLDayAndNightModeTests.xctest"
-               BlueprintName = "JXLDayAndNightModeTests"
-               ReferencedContainer = "container:JXLDayAndNightMode.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "731C1F831BD1F18400035EC3"
-               BuildableName = "JXLDayAndNightModeUITests.xctest"
-               BlueprintName = "JXLDayAndNightModeUITests"
-               ReferencedContainer = "container:JXLDayAndNightMode.xcodeproj">
+               BlueprintIdentifier = "737D9CEB1BD407AA002BAEA0"
+               BuildableName = "JXLDayAndNightModeDemoTests.xctest"
+               BlueprintName = "JXLDayAndNightModeDemoTests"
+               ReferencedContainer = "container:JXLDayAndNightModeDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "731C1F5F1BD1F18400035EC3"
-            BuildableName = "JXLDayAndNightMode.app"
-            BlueprintName = "JXLDayAndNightMode"
-            ReferencedContainer = "container:JXLDayAndNightMode.xcodeproj">
+            BlueprintIdentifier = "737D9CD21BD407AA002BAEA0"
+            BuildableName = "JXLDayAndNightModeDemo.app"
+            BlueprintName = "JXLDayAndNightModeDemo"
+            ReferencedContainer = "container:JXLDayAndNightModeDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
-      debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "731C1F5F1BD1F18400035EC3"
-            BuildableName = "JXLDayAndNightMode.app"
-            BlueprintName = "JXLDayAndNightMode"
-            ReferencedContainer = "container:JXLDayAndNightMode.xcodeproj">
+            BlueprintIdentifier = "737D9CD21BD407AA002BAEA0"
+            BuildableName = "JXLDayAndNightModeDemo.app"
+            BlueprintName = "JXLDayAndNightModeDemo"
+            ReferencedContainer = "container:JXLDayAndNightModeDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "731C1F5F1BD1F18400035EC3"
-            BuildableName = "JXLDayAndNightMode.app"
-            BlueprintName = "JXLDayAndNightMode"
-            ReferencedContainer = "container:JXLDayAndNightMode.xcodeproj">
+            BlueprintIdentifier = "737D9CD21BD407AA002BAEA0"
+            BuildableName = "JXLDayAndNightModeDemo.app"
+            BlueprintName = "JXLDayAndNightModeDemo"
+            ReferencedContainer = "container:JXLDayAndNightModeDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

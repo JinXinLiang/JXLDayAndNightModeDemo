@@ -1,9 +1,9 @@
 //
 //  main.m
-//  JXLDayAndNightMode
+//  JXLDayAndNightModeDemo
 //
-//  Created by Eiwodetianna on 10/17/15.
-//  Copyright © 2015 jinxinliang. All rights reserved.
+//  Created by Eiwodetianna on 10/19/15.
+//  Copyright (c) 2015 jinxinliang. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

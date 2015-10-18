@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:JXLDayAndNightMode.xcodeproj">
+      location = "self:JXLDayAndNightModeDemo.xcodeproj">
    </FileRef>
 </Workspace>
