@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>04C68F9F-DE67-4ACE-9E45-3BAE92298A8F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>77C377B84294DF8BF8601BADD99DA6F8D4908236</key>
+		<string>https://github.com/JinXinLiang/JXLDayAndNightModeDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JXLDayAndNightModeDemo/JXLDayAndNightModeDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>77C377B84294DF8BF8601BADD99DA6F8D4908236</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/JinXinLiang/JXLDayAndNightModeDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>77C377B84294DF8BF8601BADD99DA6F8D4908236</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>77C377B84294DF8BF8601BADD99DA6F8D4908236</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JXLDayAndNightModeDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

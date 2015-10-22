@@ -19,6 +19,7 @@
 
 	UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.frame = CGRectMake(100, 100, 100, 100);
+    [button setTitle:@"touch" forState:UIControlStateNormal];
     [button jxl_setDayMode:^(UIView *view) {
         
         UIButton *setButton = (UIButton *)view;
@@ -32,7 +33,6 @@
         setButton.titleLabel.textColor = [UIColor blackColor];
         
     }];
-    [button setTitle:@"touch" forState:UIControlStateNormal];
     [button addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
 **可通过JXLDayAndNightManager单例的contentMode属性获取当前的模式**
