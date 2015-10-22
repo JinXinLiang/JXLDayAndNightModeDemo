@@ -19,11 +19,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-
+    
+    // 设置日间和夜间两种状态
     [self.view jxl_setDayMode:^(UIView *view) {
-        view.backgroundColor = [UIColor whiteColor];
+        
+        // 设置日间模式状态
+        view.backgroundColor = [UIColor whiteColor]; // view为当前设置的视图
+        
     } nightMode:^(UIView *view) {
-        view.backgroundColor = [UIColor blackColor];
+        
+        // 设置夜间模式状态
+        view.backgroundColor = [UIColor blackColor]; // view为当前设置的视图
+        
     }];
     
     [self.navigationController.navigationBar jxl_setDayMode:^(UIView *view) {
@@ -39,9 +46,17 @@
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.frame = CGRectMake(100, 100, 100, 100);
     [button jxl_setDayMode:^(UIView *view) {
-        view.backgroundColor = [UIColor greenColor];
+        
+        UIButton *setButton = (UIButton *)view;
+        setButton.backgroundColor = [UIColor blackColor];
+        setButton.titleLabel.textColor = [UIColor whiteColor];
+        
     } nightMode:^(UIView *view) {
-        view.backgroundColor = [UIColor redColor];
+        
+        UIButton *setButton = (UIButton *)view;
+        setButton.backgroundColor = [UIColor whiteColor];
+        setButton.titleLabel.textColor = [UIColor blackColor];
+        
     }];
     [button setTitle:@"touch" forState:UIControlStateNormal];
     [button addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];

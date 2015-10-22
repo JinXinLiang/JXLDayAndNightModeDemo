@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 
 typedef enum : NSUInteger {
-    JXLDayAndNightModeDay,
-    JXLDayAndNightModeNight,
+    JXLDayAndNightModeDay, // 日间模式
+    JXLDayAndNightModeNight, // 夜间模式
 } JXLDayAndNightMode;
 
 @interface JXLDayAndNightManager : NSObject
