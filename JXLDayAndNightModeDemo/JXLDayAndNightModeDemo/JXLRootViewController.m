@@ -16,6 +16,10 @@
 
 @implementation JXLRootViewController
 
+- (void)dealloc {
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:JXLChangeModeNotification object:nil];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -64,6 +68,7 @@
     
     
 }
+
 
 
 - (void)buttonAction:(UIButton *)button {

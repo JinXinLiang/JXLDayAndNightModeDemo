@@ -48,7 +48,7 @@
 
 	[[JXLDayAndNightManager shareManager] nightMode]; //开启夜间模式
 	[[JXLDayAndNightManager shareManager] dayMode]; // 开启日间模式
-**可使用通知红心自定义监听改变模式事件**
+**可使用通知中心自定义监听改变模式事件**
 
 	extern NSString *const JXLChangeModeNotification; // 模式改变的监听事件名称
 
