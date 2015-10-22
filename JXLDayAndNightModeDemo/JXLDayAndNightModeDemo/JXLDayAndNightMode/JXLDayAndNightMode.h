@@ -6,6 +6,7 @@
 //  Copyright © 2015 jinxinliang. All rights reserved.
 //
 
+
 #ifndef JXLDayAndNightMode_h
 #define JXLDayAndNightMode_h
 

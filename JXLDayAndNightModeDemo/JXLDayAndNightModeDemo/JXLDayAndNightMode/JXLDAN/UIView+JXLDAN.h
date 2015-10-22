@@ -16,7 +16,9 @@
 
 typedef void(^DAY_AND_NIGHT_MODE_BLOCK)(UIView *view);
 
-
+/**
+ *  模式改变的监听事件
+ */
 extern NSString *const JXLChangeModeNotification;
 
 @interface UIView (JXLDAN)
