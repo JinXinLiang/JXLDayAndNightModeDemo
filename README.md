@@ -24,13 +24,13 @@
         
         UIButton *setButton = (UIButton *)view;
         setButton.backgroundColor = [UIColor blackColor];
-        setButton.titleLabel.textColor = [UIColor whiteColor];
+        [setButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         
     } nightMode:^(UIView *view) {
         
         UIButton *setButton = (UIButton *)view;
         setButton.backgroundColor = [UIColor whiteColor];
-        setButton.titleLabel.textColor = [UIColor blackColor];
+        [setButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         
     }];
     [button addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
