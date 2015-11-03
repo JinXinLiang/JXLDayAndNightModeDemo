@@ -19,8 +19,6 @@ static void *JXLViewNightKey = "JXLViewNightKey";
 @implementation UIView (JXLDAN)
 
 
-
-
 - (void)jxl_setDayMode:(DAY_AND_NIGHT_MODE_BLOCK)dayMode nightMode:(DAY_AND_NIGHT_MODE_BLOCK)nightMode {
     objc_setAssociatedObject(self, JXLViewDayKey, dayMode, OBJC_ASSOCIATION_COPY)
     ;
