@@ -18,8 +18,6 @@
 @implementation JXLDayAndNightManager
 
 
-
-
 + (JXLDayAndNightManager *)shareManager {
     
     static JXLDayAndNightManager *dayAndNightManager = nil;

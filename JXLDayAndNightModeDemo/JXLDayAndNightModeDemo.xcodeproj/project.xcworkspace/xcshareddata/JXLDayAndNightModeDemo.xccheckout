@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>04C68F9F-DE67-4ACE-9E45-3BAE92298A8F</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>JXLDayAndNightModeDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>77C377B84294DF8BF8601BADD99DA6F8D4908236</key>
 		<string>https://github.com/JinXinLiang/JXLDayAndNightModeDemo.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>JXLDayAndNightModeDemo/JXLDayAndNightModeDemo.xcodeproj/project.xcworkspace</string>
+	<string>JXLDayAndNightModeDemo/JXLDayAndNightModeDemo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>77C377B84294DF8BF8601BADD99DA6F8D4908236</key>
