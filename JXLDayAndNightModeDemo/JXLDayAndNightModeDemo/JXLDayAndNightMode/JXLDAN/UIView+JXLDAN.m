@@ -27,10 +27,6 @@ static void *JXLViewNightKey = "JXLViewNightKey";
     objc_setAssociatedObject(self, JXLViewNightKey, nightMode, OBJC_ASSOCIATION_COPY)
     ;
     
-//    Method originalMethod = class_getInstanceMethod([NSString class], @selector(dealloc));
-//    Method swapMethod = class_getInstanceMethod([NSString class], @selector(myLowerString));
-//    method_exchangeImplementations(originalMethod, swapMethod);
-    
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(p_changeMode) name:JXLChangeModeNotification object:nil];
     [self p_changeMode];
