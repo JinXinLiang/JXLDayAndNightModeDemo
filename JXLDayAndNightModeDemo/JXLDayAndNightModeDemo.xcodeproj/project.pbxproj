@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		732953B71BE9DDF000C4C56E /* JXLDayAndNightManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 732953B41BE9DDF000C4C56E /* JXLDayAndNightManager.m */; settings = {ASSET_TAGS = (); }; };
+		732953B81BE9DDF000C4C56E /* UIView+JXLDAN.m in Sources */ = {isa = PBXBuildFile; fileRef = 732953B61BE9DDF000C4C56E /* UIView+JXLDAN.m */; settings = {ASSET_TAGS = (); }; };
 		737D9CD91BD407AA002BAEA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 737D9CD81BD407AA002BAEA0 /* main.m */; };
 		737D9CE41BD407AA002BAEA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 737D9CE31BD407AA002BAEA0 /* Images.xcassets */; };
 		737D9CE71BD407AA002BAEA0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 737D9CE51BD407AA002BAEA0 /* LaunchScreen.xib */; };
 		737D9CF31BD407AA002BAEA0 /* JXLDayAndNightModeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 737D9CF21BD407AA002BAEA0 /* JXLDayAndNightModeDemoTests.m */; };
 		737D9D0B1BD407F3002BAEA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 737D9CFD1BD407F3002BAEA0 /* AppDelegate.m */; };
-		737D9D0C1BD407F3002BAEA0 /* JXLDayAndNightManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 737D9D011BD407F3002BAEA0 /* JXLDayAndNightManager.m */; };
-		737D9D0D1BD407F3002BAEA0 /* UIView+JXLDAN.m in Sources */ = {isa = PBXBuildFile; fileRef = 737D9D031BD407F3002BAEA0 /* UIView+JXLDAN.m */; };
 		737D9D0E1BD407F3002BAEA0 /* JXLRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 737D9D061BD407F3002BAEA0 /* JXLRootViewController.m */; };
 		737D9D0F1BD407F3002BAEA0 /* JXLSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 737D9D081BD407F3002BAEA0 /* JXLSecondViewController.m */; };
 		737D9D101BD407F3002BAEA0 /* JXLTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 737D9D0A1BD407F3002BAEA0 /* JXLTableViewCell.m */; };
@@ -30,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		732953B31BE9DDF000C4C56E /* JXLDayAndNightManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXLDayAndNightManager.h; sourceTree = "<group>"; };
+		732953B41BE9DDF000C4C56E /* JXLDayAndNightManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXLDayAndNightManager.m; sourceTree = "<group>"; };
+		732953B51BE9DDF000C4C56E /* UIView+JXLDAN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JXLDAN.h"; sourceTree = "<group>"; };
+		732953B61BE9DDF000C4C56E /* UIView+JXLDAN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JXLDAN.m"; sourceTree = "<group>"; };
 		737D9CD31BD407AA002BAEA0 /* JXLDayAndNightModeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXLDayAndNightModeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		737D9CD71BD407AA002BAEA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		737D9CD81BD407AA002BAEA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,10 +44,6 @@
 		737D9CF21BD407AA002BAEA0 /* JXLDayAndNightModeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXLDayAndNightModeDemoTests.m; sourceTree = "<group>"; };
 		737D9CFC1BD407F3002BAEA0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		737D9CFD1BD407F3002BAEA0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		737D9D001BD407F3002BAEA0 /* JXLDayAndNightManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXLDayAndNightManager.h; sourceTree = "<group>"; };
-		737D9D011BD407F3002BAEA0 /* JXLDayAndNightManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXLDayAndNightManager.m; sourceTree = "<group>"; };
-		737D9D021BD407F3002BAEA0 /* UIView+JXLDAN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JXLDAN.h"; sourceTree = "<group>"; };
-		737D9D031BD407F3002BAEA0 /* UIView+JXLDAN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JXLDAN.m"; sourceTree = "<group>"; };
 		737D9D041BD407F3002BAEA0 /* JXLDayAndNightMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXLDayAndNightMode.h; sourceTree = "<group>"; };
 		737D9D051BD407F3002BAEA0 /* JXLRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXLRootViewController.h; sourceTree = "<group>"; };
 		737D9D061BD407F3002BAEA0 /* JXLRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXLRootViewController.m; sourceTree = "<group>"; };
@@ -137,21 +137,13 @@
 		737D9CFE1BD407F3002BAEA0 /* JXLDayAndNightMode */ = {
 			isa = PBXGroup;
 			children = (
-				737D9CFF1BD407F3002BAEA0 /* JXLDAN */,
+				732953B31BE9DDF000C4C56E /* JXLDayAndNightManager.h */,
+				732953B41BE9DDF000C4C56E /* JXLDayAndNightManager.m */,
+				732953B51BE9DDF000C4C56E /* UIView+JXLDAN.h */,
+				732953B61BE9DDF000C4C56E /* UIView+JXLDAN.m */,
 				737D9D041BD407F3002BAEA0 /* JXLDayAndNightMode.h */,
 			);
 			path = JXLDayAndNightMode;
-			sourceTree = "<group>";
-		};
-		737D9CFF1BD407F3002BAEA0 /* JXLDAN */ = {
-			isa = PBXGroup;
-			children = (
-				737D9D001BD407F3002BAEA0 /* JXLDayAndNightManager.h */,
-				737D9D011BD407F3002BAEA0 /* JXLDayAndNightManager.m */,
-				737D9D021BD407F3002BAEA0 /* UIView+JXLDAN.h */,
-				737D9D031BD407F3002BAEA0 /* UIView+JXLDAN.m */,
-			);
-			path = JXLDAN;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,11 +247,11 @@
 			files = (
 				737D9D0B1BD407F3002BAEA0 /* AppDelegate.m in Sources */,
 				737D9CD91BD407AA002BAEA0 /* main.m in Sources */,
+				732953B71BE9DDF000C4C56E /* JXLDayAndNightManager.m in Sources */,
 				737D9D101BD407F3002BAEA0 /* JXLTableViewCell.m in Sources */,
 				737D9D0E1BD407F3002BAEA0 /* JXLRootViewController.m in Sources */,
+				732953B81BE9DDF000C4C56E /* UIView+JXLDAN.m in Sources */,
 				737D9D0F1BD407F3002BAEA0 /* JXLSecondViewController.m in Sources */,
-				737D9D0C1BD407F3002BAEA0 /* JXLDayAndNightManager.m in Sources */,
-				737D9D0D1BD407F3002BAEA0 /* UIView+JXLDAN.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +440,7 @@
 				737D9CF81BD407AA002BAEA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		737D9CF91BD407AA002BAEA0 /* Build configuration list for PBXNativeTarget "JXLDayAndNightModeDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +449,7 @@
 				737D9CFB1BD407AA002BAEA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
