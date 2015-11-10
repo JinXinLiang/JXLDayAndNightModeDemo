@@ -8,7 +8,7 @@
 
 #import "UIView+JXLDAN.h"
 #import "JXLDayAndNightManager.h"
-#import <objc/objc-runtime.h>
+#import <objc/runtime.h>
 
 NSString *const JXLChangeModeNotification = @"JXLDNNotification";
 
