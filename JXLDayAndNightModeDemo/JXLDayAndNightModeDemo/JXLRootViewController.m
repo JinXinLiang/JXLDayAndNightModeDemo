@@ -26,7 +26,7 @@
     
     // 设置日间和夜间两种状态
     [self.view jxl_setDayMode:^(UIView *view) {
-        
+
         // 设置日间模式状态
         view.backgroundColor = [UIColor whiteColor]; // view为当前设置的视图
         
