@@ -20,10 +20,10 @@
     [[NSNotificationCenter defaultCenter] removeObserver:self name:JXLChangeModeNotification object:nil];
 }
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
     // 设置日间和夜间两种状态
     [self.view jxl_setDayMode:^(UIView *view) {
 
@@ -39,9 +39,14 @@
     
     [self.navigationController.navigationBar jxl_setDayMode:^(UIView *view) {
         UINavigationBar *bar = (UINavigationBar *)view;
+        // 改变状态栏前景色为黑色
+        bar.barStyle = UIBarStyleDefault;
         bar.barTintColor = [UIColor whiteColor];
     } nightMode:^(UIView *view) {
+        
         UINavigationBar *bar = (UINavigationBar *)view;
+        // 改变状态栏前景色为白色
+        bar.barStyle = UIBarStyleBlack;
         bar.barTintColor = [UIColor blackColor];
     }];
     
